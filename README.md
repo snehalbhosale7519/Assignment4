@@ -15,12 +15,12 @@
 
 
 ### Setup Instructions
-- 1. Install MySQL JDBC Driver
+1. Install MySQL JDBC Driver
 
 -Download MySQL Connector/J from the official website.
 -In NetBeans, right-click Libraries > Add JAR/Folder > select the .jar file.
 
--2. Database Connection
+2. Database Connection
 
 Create a class DatabaseConnection.java with the following code:
 - import java.sql.Connection;
@@ -49,8 +49,8 @@ public class DatabaseConnection {
     }
 }
 - Note: Replace your_database_name, your_mysql_username, and your_mysql_password with your actual credentials.
-- 
--3. Homepage Design
+ 
+3. Homepage Design
 
 -Create a JFrame Form named Homepage.
 
@@ -64,7 +64,7 @@ Buttons: View Profile, Settings, Logout
 
 Use GroupLayout for proper alignment.
 
-- 4. Run & Test
+4. Run & Test
 
 Run DatabaseConnection.java → Check if connection works.
 
